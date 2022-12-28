@@ -1,0 +1,11 @@
+<model-viewer src="FORWARD_3D.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1.43" auto-rotate shadow-softness="0.83" camera-orbit="-2.026e-13deg 88.48deg 1.264m" field-of-view="30deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
